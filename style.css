@@ -1,29 +1,62 @@
 /* Base Styles */
 body {
-  color: royalblue;
+  color: #4F4F4F;
   text-align: center;
-  background-color: bisque;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #FFF7D6;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+h1{
+  color:#6D5C7C;
+  font-family: Lucida Handwriting, cursive;
+}
+h2, h3 {
+  color: #6E8C74;
+  font-family: Lucida Handwriting, cursive;
 }
 
 /* Typography */
 
 /* Links & Accents */
+a {
+  color: #E6A697;
+}
 
 /* Images */
+img {
+  border: #6D5C7C;
+  border-radius: 100%;
+}
 
 /* Hero Section */
+nav {
+  background: #E6A697;
+  border-radius: 8px;
+  padding: 12px 0px
+}
+header .btn {
+display: inline-block;
+background-color:#CFE9F9;
+border: black;
+border-radius: 6px;
+padding: 10px 16px
+}
 
 /* Main Content */
 
 /* About Section */
+.about-us {
+  padding: 20px;
+  background-color: antiquewhite;
+  border: 1px solid #4F4F4F;
+  border-radius: 8px;
+}
 
 /* Specials Section */
 
 /* Visit Us Section */
 
 iframe {
-  width: 100%;
+  width: 50%;
   height: 350px;
 }
 
